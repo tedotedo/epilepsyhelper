@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <!-- Background rounded square -->
+  <rect width="180" height="180" rx="36" fill="url(#bgGradient)"/>
+  <!-- Heart icon -->
+  <path d="M90 148c-3 0-5.8-1.2-7.9-3.3l-44.3-44.3c-12.4-12.4-12.4-32.5 0-44.9 12-12 31.4-12.4 43.8-1.1l8.2 7.4 8.2-7.4c12.4-11.3 31.8-10.9 43.8 1.1 12.4 12.4 12.4 32.5 0 44.9l-44.3 44.3c-2.1 2.1-4.9 3.3-7.5 3.3z" fill="white" opacity="0.95"/>
+  <!-- Pulse line -->
+  <path d="M63 90h14l7-14 10.5 28 10.5-28 7 14h14" stroke="url(#bgGradient)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

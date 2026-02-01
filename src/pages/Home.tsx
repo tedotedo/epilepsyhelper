@@ -167,7 +167,9 @@ const Home = () => {
             onClick={() => setRole(null)}
             className="btn-secondary text-sm"
           >
-            Change Role
+            {role === 'parent-carer' && 'Switch to Young Person'}
+            {role === 'young-person' && 'Switch to Parent/Carer'}
+            {role === 'professional' && 'Switch Profile'}
           </button>
         </div>
       </div>
